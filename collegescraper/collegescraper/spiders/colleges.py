@@ -23,6 +23,8 @@ class CollegesSpider(scrapy.Spider):
 
         previous_length = 0
         # Click "Show More Colleges" button until no more appear
+        # For the sake of time, I have modified this to only click this buttom 10 times
+        # If we actually wanted to pull every single college, then change the for loop line to while True:
         for i in range(10):
             try:
                 show_more_button = self.driver.find_element(By.CSS_SELECTOR, '[aria-label="Show More Colleges"]')
