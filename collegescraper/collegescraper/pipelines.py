@@ -14,6 +14,11 @@ class CollegescraperPipeline:
         # connect to or create the db as needed
         self.connection = sqlite3.connect('colleges.db')
         self.cursor = self.connection.cursor()
+
+        # drop colleges table if it exists
+        self.cursor.execute('DROP TABLE IF EXISTS colleges')
+        self.connection.commit()
+
         # build out the table for colleges
         self.cursor.execute('''
             CREATE TABLE IF NOT EXISTS colleges (
