@@ -5,7 +5,6 @@ import { useAppDispatch, useAppSelector } from './store/hooks';
 import { setColleges } from './store/slices/collegesSlice';
 import Pagination from './components/Pagination';
 
-
 interface College {
   school_name: string;
   school_city: string;
@@ -42,27 +41,26 @@ const Home: React.FC = () => {
 
   const paginatedData = data.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
-
   return (
     <div className="flex flex-col items-center justify-center p-8 bg-white rounded shadow-lg">
-        <div className="text-center max-w-3xl">
-          <h2 className="text-2xl font-bold mb-4">About This App</h2>
-          <p className="mb-4">
-            This application is a web crawler designed to scrape data from The College Board&apos;s BigFuture college search tool. The goal is to build a database containing information about American colleges and universities. 
-          </p>
-          <p className="mb-4">
-            The crawler scrapes and stores the following fields for each college:
-          </p>
-          <ul className="list-disc list-inside mb-4 text-left">
-            <li>The school name</li>
-            <li>The school city</li>
-            <li>The school state</li>
-            <li>&quot;The college board code&quot; (if it exists)</li>
-          </ul>
-          <p className="mb-4">
-            The data is persisted into an SQLite database. The app respects web scraping constraints to avoid IP blocking by including delays between requests.
-          </p>
-        </div>
+      <div className="text-center max-w-3xl">
+        <h2 className="text-2xl font-bold mb-4">About This App</h2>
+        <p className="mb-4">
+          This application is a web crawler designed to scrape data from The College Board&apos;s BigFuture college search tool. The goal is to build a database containing information about American colleges and universities.
+        </p>
+        <p className="mb-4">
+          The crawler scrapes and stores the following fields for each college:
+        </p>
+        <ul className="list-disc list-inside mb-4 text-left">
+          <li>The school name</li>
+          <li>The school city</li>
+          <li>The school state</li>
+          <li>&quot;The college board code&quot; (if it exists)</li>
+        </ul>
+        <p className="mb-4">
+          The data is persisted into an SQLite database. The app respects web scraping constraints to avoid IP blocking by including delays between requests.
+        </p>
+      </div>
       <button
         onClick={startCrawl}
         disabled={loading}

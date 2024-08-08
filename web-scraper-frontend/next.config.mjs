@@ -1,10 +1,11 @@
 // next.config.mjs
 
 export default {
+    trailingSlash: true,
     async rewrites() {
         return [{
             source: '/api/:path*',
-            destination: `${process.env.API_URL}/api/:path*` || 'http://localhost:8000/api/:path*', // Proxy to FastAPI backend
+            destination: process.env.API_URL || 'http://localhost:8000/api/:path*', // Proxy to FastAPI backend
         }, ];
     },
     env: {

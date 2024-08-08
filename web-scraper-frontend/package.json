@@ -5,11 +5,13 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "export": "next export",
         "start:api": "cd ../backend && uvicorn api.main:app --reload",
         "start:frontend": "npm run dev",
         "start": "concurrently \"npm run start:api\" \"npm run start:frontend\"",
         "render-deploy": "next start -p $PORT",
-        "lint": "next lint"
+        "lint": "next lint",
+        "heroku": "next start -p ${PORT:-5000}"
     },
     "dependencies": {
         "@reduxjs/toolkit": "^2.2.7",

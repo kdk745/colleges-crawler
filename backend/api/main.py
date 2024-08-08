@@ -1,10 +1,12 @@
 from fastapi import FastAPI, Depends
+from fastapi.staticfiles import StaticFiles
 from .scraper import start_crawl_job
 from .crud import get_all_colleges
 from sqlalchemy.ext.asyncio import AsyncSession
 from .database import get_db
 from .schemas import College as CollegeSchema
 from typing import List
+
 
 app = FastAPI()
 

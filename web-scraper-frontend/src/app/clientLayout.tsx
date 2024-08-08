@@ -12,7 +12,7 @@ const ClientLayout: React.FC<ClientLayoutProps> = ({ children }) => {
 
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen font-sans">
+      <body className="flex flex-col min-h-screen font-sans bg-white text-black">
         <Provider store={store}>
           <header className="bg-blue-600 text-white p-4 text-center">
             <h1 className="text-1xl font-bold">College Scraper</h1>
