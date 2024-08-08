@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start:api": "cd ../ && uvicorn api.main:app --reload",
+        "start:api": "cd ../backend && uvicorn api.main:app --reload",
         "start:frontend": "npm run dev",
         "start": "concurrently \"npm run start:api\" \"npm run start:frontend\"",
         "lint": "next lint"
