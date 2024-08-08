@@ -1,12 +1,18 @@
 #!/bin/bash
 
+# Create a directory for Chrome and ChromeDriver
+mkdir -p ./bin
+
 # Download and install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get update
 sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
 
-# Install ChromeDriver in a writable directory
-CHROMEDRIVER_DIR="/opt/chromedriver"
+# Move the Chrome binary to the ./bin directory
+mv /usr/bin/google-chrome ./bin/google-chrome
+
+# Install ChromeDriver in the ./bin directory
+CHROMEDRIVER_DIR="./bin"
 
 if [ -z "$CHROMEDRIVER_VERSION" ]; then
   CHROME_DRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)
@@ -22,5 +28,5 @@ rm chromedriver_linux64.zip
 chmod +x $CHROMEDRIVER_DIR/chromedriver
 
 # Verify installation
-google-chrome --version
+./bin/google-chrome --version
 $CHROMEDRIVER_DIR/chromedriver --version
