@@ -48,7 +48,7 @@ const Home: React.FC = () => {
         <div className="text-center max-w-3xl">
           <h2 className="text-2xl font-bold mb-4">About This App</h2>
           <p className="mb-4">
-            This application is a web crawler designed to scrape data from The College Board's BigFuture college search tool. The goal is to build a database containing information about American colleges and universities. 
+            This application is a web crawler designed to scrape data from The College Board&apos;s BigFuture college search tool. The goal is to build a database containing information about American colleges and universities. 
           </p>
           <p className="mb-4">
             The crawler scrapes and stores the following fields for each college:
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
             <li>The school name</li>
             <li>The school city</li>
             <li>The school state</li>
-            <li>The "college board code" (if it exists)</li>
+            <li>&quot;The college board code&quot; (if it exists)</li>
           </ul>
           <p className="mb-4">
             The data is persisted into an SQLite database. The app respects web scraping constraints to avoid IP blocking by including delays between requests.
