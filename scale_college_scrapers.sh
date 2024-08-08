@@ -8,18 +8,18 @@ scale_dynos() {
   QUANTITY=$4
 
   case $ACTION in
-    scale-up)
+    up)
       echo "Scaling up $DYNO_TYPE dynos to $QUANTITY for app $APP_NAME..."
       heroku ps:scale $DYNO_TYPE=$QUANTITY -a $APP_NAME
       ;;
     
-    scale-down)
+    down)
       echo "Scaling down $DYNO_TYPE dynos to $QUANTITY for app $APP_NAME..."
       heroku ps:scale $DYNO_TYPE=$QUANTITY -a $APP_NAME
       ;;
     
     *)
-      echo "Invalid action. Use 'scale-up' or 'scale-down'."
+      echo "Invalid action. Use 'up' or 'down'."
       exit 1
       ;;
   esac
@@ -31,12 +31,12 @@ scale_dynos() {
 ACTION=$1
 DYNO_TYPE=web
 
-if [ "$ACTION" == "scale-up" ]; then
+if [ "$ACTION" == "up" ]; then
   QUANTITY=1
-elif [ "$ACTION" == "scale-down" ]; then
+elif [ "$ACTION" == "down" ]; then
   QUANTITY=0
 else
-  echo "Invalid action. Use 'scale-up' or 'scale-down'."
+  echo "Invalid action. Use 'up' or 'down'."
   exit 1
 fi
 
