@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+    background-color: #005bb5;
+}
+
+.results {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.resultItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+
+body {
+    @apply bg-white text-black;
+}
+
+body.dark {
+    @apply bg-gray-900 text-white;
+}
+
+header,
+footer {
+    @apply bg-blue-600 text-white;
+}
+
+header.dark,
+footer.dark {
+    @apply bg-gray-800 text-white;
+}

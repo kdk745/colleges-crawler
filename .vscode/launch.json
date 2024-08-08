@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Scrapy",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/crawler/Scripts/scrapy.exe",
+            "args": [
+                "crawl",
+                "colleges"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/crawler/Lib/site-packages"
+            },
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/collegescraper"
+        }
+    ]
+}

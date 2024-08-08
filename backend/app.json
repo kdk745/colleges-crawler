@@ -1,0 +1,10 @@
+{
+    "name": "my-college-scraper-backend",
+    "description": "FastAPI backend for College Scraper",
+    "env": {
+        "DATABASE_URL": {
+            "description": "The database URL",
+            "required": true
+        }
+    }
+}
