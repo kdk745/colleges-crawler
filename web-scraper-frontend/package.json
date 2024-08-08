@@ -7,7 +7,7 @@
         "build": "next build",
         "start:api": "cd ../backend && uvicorn api.main:app --reload",
         "start:frontend": "npm run dev",
-        "start": "concurrently \"npm run start:api\" \"npm run start:frontend\"",
+        "start": "npm run start:frontend",
         "lint": "next lint"
     },
     "dependencies": {
