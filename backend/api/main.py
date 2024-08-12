@@ -21,7 +21,7 @@ async def start_crawl(db: AsyncSession = Depends(get_db)):
     # Run the Scrapy job and wait for it to complete
     result = start_crawl_job.delay()
     try:
-        response = result.get(timeout=60)
+        response = result.get(timeout=300)
         print(f"Task Result: {response}")
     except TimeoutError:
         print("Task did not complete within the timeout period.")
