@@ -4,6 +4,7 @@ interface College {
   school_name: string;
   school_city: string;
   school_state: string;
+  college_board_code: string;
 }
 
 interface CollegesState {

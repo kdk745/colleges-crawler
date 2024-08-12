@@ -46,7 +46,10 @@ def start_crawl_job():
     # Change to the correct directory
     os.chdir(os.path.abspath(os.path.join(current_directory, os.pardir, 'collegescraper')))
 
-    scrapy_executable = os.path.join(current_directory, '..', 'crawler', 'Scripts', 'scrapy.exe')
+    if environment == 'production':
+        scrapy_executable = "scrapy"
+    else:
+        scrapy_executable = os.path.join(current_directory, '..', 'crawler', 'Scripts', 'scrapy.exe')
 
     
     # Run the scrapy command

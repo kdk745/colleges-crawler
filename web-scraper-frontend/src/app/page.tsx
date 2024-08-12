@@ -9,6 +9,7 @@ interface College {
   school_name: string;
   school_city: string;
   school_state: string;
+  college_board_code: string;
 }
 
 const Home: React.FC = () => {
@@ -101,7 +102,7 @@ const Home: React.FC = () => {
         <ul className="space-y-4">
           {paginatedData.map((item, index) => (
             <li key={index} className="p-4 bg-gray-100 rounded border border-gray-300">
-              {item.school_name} - {item.school_city}, {item.school_state}
+              {item.school_name} - {item.school_city}, {item.school_state}, {item.college_board_code}
             </li>
           ))}
         </ul>

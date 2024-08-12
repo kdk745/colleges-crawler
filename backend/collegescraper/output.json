@@ -1,9 +1,9 @@
 [
 {
-    "school_name": "Ferris State University",
-    "school_city": "Big Rapids",
-    "school_state": "MI",
-    "college_board_code": "1222"
+    "school_name": "California State University: Dominguez Hills",
+    "school_city": "Carson",
+    "school_state": "CA",
+    "college_board_code": "4098"
 },
 {
     "school_name": "St. Catherine University",
@@ -18,46 +18,10 @@
     "college_board_code": "6206"
 },
 {
-    "school_name": "Valdosta State University",
-    "school_city": "Valdosta",
-    "school_state": "GA",
-    "college_board_code": "5855"
-},
-{
-    "school_name": "Salem College",
-    "school_city": "Winston Salem",
-    "school_state": "NC",
-    "college_board_code": "5607"
-},
-{
     "school_name": "University of Texas at Tyler",
     "school_city": "Tyler",
     "school_state": "TX",
     "college_board_code": "6850"
-},
-{
-    "school_name": "North Dakota State University",
-    "school_city": "Fargo",
-    "school_state": "ND",
-    "college_board_code": "6474"
-},
-{
-    "school_name": "Oral Roberts University",
-    "school_city": "Tulsa",
-    "school_state": "OK",
-    "college_board_code": "6552"
-},
-{
-    "school_name": "University of Louisiana at Lafayette",
-    "school_city": "Lafayette",
-    "school_state": "LA",
-    "college_board_code": "6672"
-},
-{
-    "school_name": "University Of Tennessee Martin",
-    "school_city": "Martin",
-    "school_state": "TN",
-    "college_board_code": "1844"
 },
 {
     "school_name": "Southern Oregon University",
@@ -66,28 +30,28 @@
     "college_board_code": "4702"
 },
 {
-    "school_name": "North Carolina Central University",
-    "school_city": "Durham",
+    "school_name": "North Dakota State University",
+    "school_city": "Fargo",
+    "school_state": "ND",
+    "college_board_code": "6474"
+},
+{
+    "school_name": "University of Louisiana at Lafayette",
+    "school_city": "Lafayette",
+    "school_state": "LA",
+    "college_board_code": "6672"
+},
+{
+    "school_name": "Salem College",
+    "school_city": "Winston Salem",
     "school_state": "NC",
-    "college_board_code": "5495"
+    "college_board_code": "5607"
 },
 {
-    "school_name": "Hilbert College",
-    "school_city": "Hamburg",
-    "school_state": "NY",
-    "college_board_code": "2334"
-},
-{
-    "school_name": "University of Southern Indiana",
-    "school_city": "Evansville",
-    "school_state": "IN",
-    "college_board_code": "1335"
-},
-{
-    "school_name": "Coker University",
-    "school_city": "Hartsville",
-    "school_state": "SC",
-    "college_board_code": "5112"
+    "school_name": "Oral Roberts University",
+    "school_city": "Tulsa",
+    "school_state": "OK",
+    "college_board_code": "6552"
 },
 {
     "school_name": "Indiana University Northwest",
@@ -96,16 +60,28 @@
     "college_board_code": "1338"
 },
 {
+    "school_name": "Wright State University",
+    "school_city": "Dayton",
+    "school_state": "OH",
+    "college_board_code": "1179"
+},
+{
+    "school_name": "Oakland University",
+    "school_city": "Rochester",
+    "school_state": "MI",
+    "college_board_code": "1497"
+},
+{
+    "school_name": "Coker University",
+    "school_city": "Hartsville",
+    "school_state": "SC",
+    "college_board_code": "5112"
+},
+{
     "school_name": "Western Colorado University",
     "school_city": "Gunnison",
     "school_state": "CO",
     "college_board_code": "4946"
-},
-{
-    "school_name": "Florida Atlantic University",
-    "school_city": "Boca Raton",
-    "school_state": "FL",
-    "college_board_code": "5229"
 },
 {
     "school_name": "New Mexico State University",
@@ -114,28 +90,40 @@
     "college_board_code": "4531"
 },
 {
+    "school_name": "University of Southern Indiana",
+    "school_city": "Evansville",
+    "school_state": "IN",
+    "college_board_code": "1335"
+},
+{
+    "school_name": "Hilbert College",
+    "school_city": "Hamburg",
+    "school_state": "NY",
+    "college_board_code": "2334"
+},
+{
+    "school_name": "North Carolina Central University",
+    "school_city": "Durham",
+    "school_state": "NC",
+    "college_board_code": "5495"
+},
+{
+    "school_name": "University Of Tennessee Martin",
+    "school_city": "Martin",
+    "school_state": "TN",
+    "college_board_code": "1844"
+},
+{
     "school_name": "University of Jamestown",
     "school_city": "Jamestown",
     "school_state": "ND",
     "college_board_code": "6318"
 },
 {
-    "school_name": "Wright State University",
-    "school_city": "Dayton",
-    "school_state": "OH",
-    "college_board_code": "1179"
-},
-{
-    "school_name": "West Chester University of Pennsylvania",
-    "school_city": "West Chester",
-    "school_state": "PA",
-    "college_board_code": "2659"
-},
-{
-    "school_name": "Mercy University",
-    "school_city": "Dobbs Ferry",
-    "school_state": "NY",
-    "college_board_code": "2409"
+    "school_name": "Florida Atlantic University",
+    "school_city": "Boca Raton",
+    "school_state": "FL",
+    "college_board_code": "5229"
 },
 {
     "school_name": "California State University: Fullerton",
@@ -144,10 +132,10 @@
     "college_board_code": "4589"
 },
 {
-    "school_name": "Southern Illinois University Carbondale",
-    "school_city": "Carbondale",
-    "school_state": "IL",
-    "college_board_code": "1726"
+    "school_name": "West Chester University of Pennsylvania",
+    "school_city": "West Chester",
+    "school_state": "PA",
+    "college_board_code": "2659"
 },
 {
     "school_name": "Simpson College",
@@ -162,10 +150,10 @@
     "college_board_code": "4874"
 },
 {
-    "school_name": "Sul Ross State University",
-    "school_city": "Alpine",
-    "school_state": "TX",
-    "college_board_code": "6685"
+    "school_name": "Villa Maria College of Buffalo",
+    "school_city": "Buffalo",
+    "school_state": "NY",
+    "college_board_code": "2962"
 },
 {
     "school_name": "University of Nebraska Kearney",
@@ -174,28 +162,10 @@
     "college_board_code": "6467"
 },
 {
-    "school_name": "Dakota State University",
-    "school_city": "Madison",
-    "school_state": "SD",
-    "college_board_code": "6247"
-},
-{
-    "school_name": "Cleveland State University",
-    "school_city": "Cleveland",
-    "school_state": "OH",
-    "college_board_code": "1221"
-},
-{
-    "school_name": "Gordon State College",
-    "school_city": "Barnesville",
-    "school_state": "GA",
-    "college_board_code": "5256"
-},
-{
-    "school_name": "Villa Maria College of Buffalo",
-    "school_city": "Buffalo",
-    "school_state": "NY",
-    "college_board_code": "2962"
+    "school_name": "California State University: San Bernardino",
+    "school_city": "San Bernardino",
+    "school_state": "CA",
+    "college_board_code": "4099"
 },
 {
     "school_name": "Shorter University",
@@ -204,46 +174,40 @@
     "college_board_code": "5616"
 },
 {
-    "school_name": "University of Massachusetts Lowell",
-    "school_city": "Lowell",
-    "school_state": "MA",
-    "college_board_code": "3911"
+    "school_name": "Southern Illinois University Carbondale",
+    "school_city": "Carbondale",
+    "school_state": "IL",
+    "college_board_code": "1726"
 },
 {
-    "school_name": "SUNY Farmingdale State College",
-    "school_city": "Farmingdale",
+    "school_name": "Mercy University",
+    "school_city": "Dobbs Ferry",
     "school_state": "NY",
-    "college_board_code": "2526"
+    "college_board_code": "2409"
 },
 {
-    "school_name": "California State University: San Bernardino",
-    "school_city": "San Bernardino",
-    "school_state": "CA",
-    "college_board_code": "4099"
-},
-{
-    "school_name": "University Of Connecticut Stamford",
-    "school_city": "Stamford",
-    "school_state": "CT",
-    "college_board_code": null
-},
-{
-    "school_name": "Bowie State University",
-    "school_city": "Bowie",
-    "school_state": "MD",
-    "college_board_code": "5401"
-},
-{
-    "school_name": "Texas State University",
-    "school_city": "San Marcos",
+    "school_name": "Sul Ross State University",
+    "school_city": "Alpine",
     "school_state": "TX",
-    "college_board_code": "6667"
+    "college_board_code": "6685"
 },
 {
-    "school_name": "Tougaloo College",
-    "school_city": "Tougaloo",
-    "school_state": "MS",
-    "college_board_code": "1807"
+    "school_name": "Dakota State University",
+    "school_city": "Madison",
+    "school_state": "SD",
+    "college_board_code": "6247"
+},
+{
+    "school_name": "Gordon State College",
+    "school_city": "Barnesville",
+    "school_state": "GA",
+    "college_board_code": "5256"
+},
+{
+    "school_name": "Cleveland State University",
+    "school_city": "Cleveland",
+    "school_state": "OH",
+    "college_board_code": "1221"
 },
 {
     "school_name": "California State University: Los Angeles",
@@ -252,10 +216,28 @@
     "college_board_code": "4399"
 },
 {
+    "school_name": "University Of Connecticut Stamford",
+    "school_city": "Stamford",
+    "school_state": "CT",
+    "college_board_code": null
+},
+{
     "school_name": "Auburn University at Montgomery",
     "school_city": "Montgomery",
     "school_state": "AL",
     "college_board_code": "1036"
+},
+{
+    "school_name": "Tougaloo College",
+    "school_city": "Tougaloo",
+    "school_state": "MS",
+    "college_board_code": "1807"
+},
+{
+    "school_name": "University of Massachusetts Lowell",
+    "school_city": "Lowell",
+    "school_state": "MA",
+    "college_board_code": "3911"
 },
 {
     "school_name": "University of Toledo",
@@ -264,10 +246,16 @@
     "college_board_code": "1845"
 },
 {
-    "school_name": "Fitchburg State University",
-    "school_city": "Fitchburg",
-    "school_state": "MA",
-    "college_board_code": "3518"
+    "school_name": "Indiana University-Purdue University Indianapolis",
+    "school_city": "Indianapolis",
+    "school_state": "IN",
+    "college_board_code": "1325"
+},
+{
+    "school_name": "Bowie State University",
+    "school_city": "Bowie",
+    "school_state": "MD",
+    "college_board_code": "5401"
 },
 {
     "school_name": "Grand View University",
@@ -276,16 +264,16 @@
     "college_board_code": "6251"
 },
 {
-    "school_name": "University of South Carolina: Upstate",
-    "school_city": "Spartanburg",
-    "school_state": "SC",
-    "college_board_code": "5850"
+    "school_name": "Texas State University",
+    "school_city": "San Marcos",
+    "school_state": "TX",
+    "college_board_code": "6667"
 },
 {
-    "school_name": "SUNY Old Westbury",
-    "school_city": "Old Westbury",
+    "school_name": "SUNY Farmingdale State College",
+    "school_city": "Farmingdale",
     "school_state": "NY",
-    "college_board_code": "2866"
+    "college_board_code": "2526"
 },
 {
     "school_name": "Black Hills State University",
@@ -300,70 +288,16 @@
     "college_board_code": "1851"
 },
 {
+    "school_name": "SUNY Old Westbury",
+    "school_city": "Old Westbury",
+    "school_state": "NY",
+    "college_board_code": "2866"
+},
+{
     "school_name": "Georgia Southern University",
     "school_city": "Statesboro",
     "school_state": "GA",
     "college_board_code": "5253"
-},
-{
-    "school_name": "Indiana University-Purdue University Indianapolis",
-    "school_city": "Indianapolis",
-    "school_state": "IN",
-    "college_board_code": "1325"
-},
-{
-    "school_name": "East Stroudsburg University of Pennsylvania",
-    "school_city": "East Stroudsburg",
-    "school_state": "PA",
-    "college_board_code": "2650"
-},
-{
-    "school_name": "University of Utah",
-    "school_city": "Salt Lake City",
-    "school_state": "UT",
-    "college_board_code": "4853"
-},
-{
-    "school_name": "Evergreen State College",
-    "school_city": "Olympia",
-    "school_state": "WA",
-    "college_board_code": "4292"
-},
-{
-    "school_name": "University of Maryland: Baltimore County",
-    "school_city": "Baltimore",
-    "school_state": "MD",
-    "college_board_code": "5835"
-},
-{
-    "school_name": "Southwest Baptist University",
-    "school_city": "Bolivar",
-    "school_state": "MO",
-    "college_board_code": "6664"
-},
-{
-    "school_name": "Indiana University Bloomington",
-    "school_city": "Bloomington",
-    "school_state": "IN",
-    "college_board_code": "1324"
-},
-{
-    "school_name": "Florida Gulf Coast University",
-    "school_city": "Fort Myers",
-    "school_state": "FL",
-    "college_board_code": "5221"
-},
-{
-    "school_name": "University of St. Thomas",
-    "school_city": "Houston",
-    "school_state": "TX",
-    "college_board_code": "6880"
-},
-{
-    "school_name": "Radford University",
-    "school_city": "Radford",
-    "school_state": "VA",
-    "college_board_code": "5565"
 },
 {
     "school_name": "Northern State University",
@@ -372,10 +306,40 @@
     "college_board_code": "6487"
 },
 {
-    "school_name": "University of Maine",
-    "school_city": "Orono",
-    "school_state": "ME",
-    "college_board_code": "3916"
+    "school_name": "University of South Carolina: Upstate",
+    "school_city": "Spartanburg",
+    "school_state": "SC",
+    "college_board_code": "5850"
+},
+{
+    "school_name": "Fitchburg State University",
+    "school_city": "Fitchburg",
+    "school_state": "MA",
+    "college_board_code": "3518"
+},
+{
+    "school_name": "University of Maryland: Baltimore County",
+    "school_city": "Baltimore",
+    "school_state": "MD",
+    "college_board_code": "5835"
+},
+{
+    "school_name": "Evergreen State College",
+    "school_city": "Olympia",
+    "school_state": "WA",
+    "college_board_code": "4292"
+},
+{
+    "school_name": "Southwest Baptist University",
+    "school_city": "Bolivar",
+    "school_state": "MO",
+    "college_board_code": "6664"
+},
+{
+    "school_name": "University of Utah",
+    "school_city": "Salt Lake City",
+    "school_state": "UT",
+    "college_board_code": "4853"
 },
 {
     "school_name": "University of Montana",
@@ -384,28 +348,46 @@
     "college_board_code": "4489"
 },
 {
+    "school_name": "East Stroudsburg University of Pennsylvania",
+    "school_city": "East Stroudsburg",
+    "school_state": "PA",
+    "college_board_code": "2650"
+},
+{
+    "school_name": "Indiana University Bloomington",
+    "school_city": "Bloomington",
+    "school_state": "IN",
+    "college_board_code": "1324"
+},
+{
+    "school_name": "Radford University",
+    "school_city": "Radford",
+    "school_state": "VA",
+    "college_board_code": "5565"
+},
+{
+    "school_name": "University of Maine",
+    "school_city": "Orono",
+    "school_state": "ME",
+    "college_board_code": "3916"
+},
+{
+    "school_name": "Florida Gulf Coast University",
+    "school_city": "Fort Myers",
+    "school_state": "FL",
+    "college_board_code": "5221"
+},
+{
     "school_name": "Freed-Hardeman University",
     "school_city": "Henderson",
     "school_state": "TN",
     "college_board_code": "1230"
 },
 {
-    "school_name": "Slippery Rock University of Pennsylvania",
-    "school_city": "Slippery Rock",
-    "school_state": "PA",
-    "college_board_code": "2658"
-},
-{
-    "school_name": "Western Carolina University",
-    "school_city": "Cullowhee",
-    "school_state": "NC",
-    "college_board_code": "5897"
-},
-{
-    "school_name": "Goshen College",
-    "school_city": "Goshen",
-    "school_state": "IN",
-    "college_board_code": "1251"
+    "school_name": "University of St. Thomas",
+    "school_city": "Houston",
+    "school_state": "TX",
+    "college_board_code": "6880"
 },
 {
     "school_name": "Northwest Missouri State University",
@@ -414,22 +396,22 @@
     "college_board_code": "6488"
 },
 {
-    "school_name": "Central Michigan University",
-    "school_city": "Mount Pleasant",
-    "school_state": "MI",
-    "college_board_code": "1106"
-},
-{
     "school_name": "Wartburg College",
     "school_city": "Waverly",
     "school_state": "IA",
     "college_board_code": "6926"
 },
 {
-    "school_name": "University Of Illinois Springfield",
-    "school_city": "Springfield",
-    "school_state": "IL",
-    "college_board_code": "0834"
+    "school_name": "Goshen College",
+    "school_city": "Goshen",
+    "school_state": "IN",
+    "college_board_code": "1251"
+},
+{
+    "school_name": "Slippery Rock University of Pennsylvania",
+    "school_city": "Slippery Rock",
+    "school_state": "PA",
+    "college_board_code": "2658"
 },
 {
     "school_name": "Lamar University",
@@ -438,46 +420,10 @@
     "college_board_code": "6360"
 },
 {
-    "school_name": "University of South Dakota",
-    "school_city": "Vermillion",
-    "school_state": "SD",
-    "college_board_code": "6881"
-},
-{
-    "school_name": "Sam Houston State University",
-    "school_city": "Huntsville",
-    "school_state": "TX",
-    "college_board_code": "6643"
-},
-{
-    "school_name": "Rutgers The State University Of New Jersey Newark Campus",
-    "school_city": "Newark",
-    "school_state": "NJ",
-    "college_board_code": "2753"
-},
-{
-    "school_name": "Criswell College",
-    "school_city": "Dallas",
-    "school_state": "TX",
-    "college_board_code": "0794"
-},
-{
-    "school_name": "University of Central Arkansas",
-    "school_city": "Conway",
-    "school_state": "AR",
-    "college_board_code": "6012"
-},
-{
-    "school_name": "University of North Florida",
-    "school_city": "Jacksonville",
-    "school_state": "FL",
-    "college_board_code": "5490"
-},
-{
-    "school_name": "Utah State University",
-    "school_city": "Logan",
-    "school_state": "UT",
-    "college_board_code": "4857"
+    "school_name": "Western Carolina University",
+    "school_city": "Cullowhee",
+    "school_state": "NC",
+    "college_board_code": "5897"
 },
 {
     "school_name": "SUNY Buffalo State University",
@@ -486,28 +432,28 @@
     "college_board_code": "2533"
 },
 {
-    "school_name": "University of Houston-Clear Lake",
-    "school_city": "Houston",
+    "school_name": "University of Central Arkansas",
+    "school_city": "Conway",
+    "school_state": "AR",
+    "college_board_code": "6012"
+},
+{
+    "school_name": "Rutgers The State University Of New Jersey Newark Campus",
+    "school_city": "Newark",
+    "school_state": "NJ",
+    "college_board_code": "2753"
+},
+{
+    "school_name": "University Of Illinois Springfield",
+    "school_city": "Springfield",
+    "school_state": "IL",
+    "college_board_code": "0834"
+},
+{
+    "school_name": "Criswell College",
+    "school_city": "Dallas",
     "school_state": "TX",
-    "college_board_code": "6916"
-},
-{
-    "school_name": "Georgia Gwinnett College",
-    "school_city": "Lawrenceville",
-    "school_state": "GA",
-    "college_board_code": "4796"
-},
-{
-    "school_name": "Commonwealth University Of Pennsylvania Lock Haven",
-    "school_city": "Lock Haven",
-    "school_state": "PA",
-    "college_board_code": "2654"
-},
-{
-    "school_name": "Columbia College",
-    "school_city": "Columbia",
-    "school_state": "SC",
-    "college_board_code": "5117"
+    "college_board_code": "0794"
 },
 {
     "school_name": "Missouri State University",
@@ -516,16 +462,52 @@
     "college_board_code": "6665"
 },
 {
+    "school_name": "University of North Florida",
+    "school_city": "Jacksonville",
+    "school_state": "FL",
+    "college_board_code": "5490"
+},
+{
+    "school_name": "University of South Dakota",
+    "school_city": "Vermillion",
+    "school_state": "SD",
+    "college_board_code": "6881"
+},
+{
+    "school_name": "Georgia Gwinnett College",
+    "school_city": "Lawrenceville",
+    "school_state": "GA",
+    "college_board_code": "4796"
+},
+{
+    "school_name": "Utah State University",
+    "school_city": "Logan",
+    "school_state": "UT",
+    "college_board_code": "4857"
+},
+{
+    "school_name": "University of Houston-Clear Lake",
+    "school_city": "Houston",
+    "school_state": "TX",
+    "college_board_code": "6916"
+},
+{
+    "school_name": "Columbia College",
+    "school_city": "Columbia",
+    "school_state": "SC",
+    "college_board_code": "5117"
+},
+{
+    "school_name": "Commonwealth University Of Pennsylvania Lock Haven",
+    "school_city": "Lock Haven",
+    "school_state": "PA",
+    "college_board_code": "2654"
+},
+{
     "school_name": "SUNY Polytechnic Institute",
     "school_city": "Utica",
     "school_state": "NY",
     "college_board_code": "0755"
-},
-{
-    "school_name": "Adams State University",
-    "school_city": "Alamosa",
-    "school_state": "CO",
-    "college_board_code": "4001"
 },
 {
     "school_name": "University of Saint Francis",
@@ -534,16 +516,22 @@
     "college_board_code": "1693"
 },
 {
-    "school_name": "Truman State University",
-    "school_city": "Kirksville",
-    "school_state": "MO",
-    "college_board_code": "6483"
-},
-{
     "school_name": "University of Texas at San Antonio",
     "school_city": "San Antonio",
     "school_state": "TX",
     "college_board_code": "6919"
+},
+{
+    "school_name": "Adams State University",
+    "school_city": "Alamosa",
+    "school_state": "CO",
+    "college_board_code": "4001"
+},
+{
+    "school_name": "Valdosta State University",
+    "school_city": "Valdosta",
+    "school_state": "GA",
+    "college_board_code": "5855"
 },
 {
     "school_name": "Indiana University South Bend",
@@ -552,22 +540,10 @@
     "college_board_code": "1339"
 },
 {
-    "school_name": "Oakland University",
-    "school_city": "Rochester",
-    "school_state": "MI",
-    "college_board_code": "1497"
-},
-{
     "school_name": "University of Texas of the Permian Basin",
     "school_city": "Odessa",
     "school_state": "TX",
     "college_board_code": "0448"
-},
-{
-    "school_name": "Emmaus Bible College",
-    "school_city": "Dubuque",
-    "school_state": "IA",
-    "college_board_code": "1215"
 },
 {
     "school_name": "Iowa State University",
@@ -576,46 +552,16 @@
     "college_board_code": "6306"
 },
 {
-    "school_name": "University of North Carolina at Asheville",
-    "school_city": "Asheville",
-    "school_state": "NC",
-    "college_board_code": "5013"
-},
-{
     "school_name": "Madonna University",
     "school_city": "Livonia",
     "school_state": "MI",
     "college_board_code": "1437"
 },
 {
-    "school_name": "Indiana University Southeast",
-    "school_city": "New Albany",
-    "school_state": "IN",
-    "college_board_code": "1314"
-},
-{
-    "school_name": "Portland State University",
-    "school_city": "Portland",
-    "school_state": "OR",
-    "college_board_code": "4610"
-},
-{
-    "school_name": "West Virginia University",
-    "school_city": "Morgantown",
-    "school_state": "WV",
-    "college_board_code": "5904"
-},
-{
-    "school_name": "Bethany College",
-    "school_city": "Bethany",
-    "school_state": "WV",
-    "college_board_code": "5060"
-},
-{
-    "school_name": "South Dakota State University",
-    "school_city": "Brookings",
-    "school_state": "SD",
-    "college_board_code": "6653"
+    "school_name": "Truman State University",
+    "school_city": "Kirksville",
+    "school_state": "MO",
+    "college_board_code": "6483"
 },
 {
     "school_name": "Rutgers The State University Of New Jersey Camden Campus",
@@ -624,16 +570,58 @@
     "college_board_code": "2742"
 },
 {
+    "school_name": "Portland State University",
+    "school_city": "Portland",
+    "school_state": "OR",
+    "college_board_code": "4610"
+},
+{
+    "school_name": "Central Michigan University",
+    "school_city": "Mount Pleasant",
+    "school_state": "MI",
+    "college_board_code": "1106"
+},
+{
+    "school_name": "University of North Carolina at Asheville",
+    "school_city": "Asheville",
+    "school_state": "NC",
+    "college_board_code": "5013"
+},
+{
+    "school_name": "Sam Houston State University",
+    "school_city": "Huntsville",
+    "school_state": "TX",
+    "college_board_code": "6643"
+},
+{
+    "school_name": "South Dakota State University",
+    "school_city": "Brookings",
+    "school_state": "SD",
+    "college_board_code": "6653"
+},
+{
+    "school_name": "Ferris State University",
+    "school_city": "Big Rapids",
+    "school_state": "MI",
+    "college_board_code": "1222"
+},
+{
     "school_name": "New Jersey City University",
     "school_city": "Jersey City",
     "school_state": "NJ",
     "college_board_code": "2516"
 },
 {
-    "school_name": "West Texas A&M University",
-    "school_city": "Canyon",
-    "school_state": "TX",
-    "college_board_code": "6938"
+    "school_name": "Indiana University Southeast",
+    "school_city": "New Albany",
+    "school_state": "IN",
+    "college_board_code": "1314"
+},
+{
+    "school_name": "Emmaus Bible College",
+    "school_city": "Dubuque",
+    "school_state": "IA",
+    "college_board_code": "1215"
 },
 {
     "school_name": "Northwestern State University Of Louisiana",
@@ -642,16 +630,22 @@
     "college_board_code": "6492"
 },
 {
-    "school_name": "College of Coastal Georgia",
-    "school_city": "Brunswick",
-    "school_state": "GA",
-    "college_board_code": "5078"
+    "school_name": "West Texas A&M University",
+    "school_city": "Canyon",
+    "school_state": "TX",
+    "college_board_code": "6938"
 },
 {
-    "school_name": "Appalachian State University",
-    "school_city": "Boone",
-    "school_state": "NC",
-    "college_board_code": "5010"
+    "school_name": "Bethany College",
+    "school_city": "Bethany",
+    "school_state": "WV",
+    "college_board_code": "5060"
+},
+{
+    "school_name": "West Virginia University",
+    "school_city": "Morgantown",
+    "school_state": "WV",
+    "college_board_code": "5904"
 },
 {
     "school_name": "Worcester State University",
@@ -660,22 +654,10 @@
     "college_board_code": "3524"
 },
 {
-    "school_name": "Murray State University",
-    "school_city": "Murray",
-    "school_state": "KY",
-    "college_board_code": "1494"
-},
-{
-    "school_name": "Nicholls State University",
-    "school_city": "Thibodaux",
-    "school_state": "LA",
-    "college_board_code": "6221"
-},
-{
-    "school_name": "Louisiana State University in Shreveport",
-    "school_city": "Shreveport",
-    "school_state": "LA",
-    "college_board_code": "6355"
+    "school_name": "Appalachian State University",
+    "school_city": "Boone",
+    "school_state": "NC",
+    "college_board_code": "5010"
 },
 {
     "school_name": "Southern Illinois University Edwardsville",
@@ -684,10 +666,22 @@
     "college_board_code": "1759"
 },
 {
-    "school_name": "Bridgewater State University",
-    "school_city": "Bridgewater",
-    "school_state": "MA",
-    "college_board_code": "3517"
+    "school_name": "Louisiana State University in Shreveport",
+    "school_city": "Shreveport",
+    "school_state": "LA",
+    "college_board_code": "6355"
+},
+{
+    "school_name": "College of Coastal Georgia",
+    "school_city": "Brunswick",
+    "school_state": "GA",
+    "college_board_code": "5078"
+},
+{
+    "school_name": "Nicholls State University",
+    "school_city": "Thibodaux",
+    "school_state": "LA",
+    "college_board_code": "6221"
 },
 {
     "school_name": "Virginia State University",
@@ -696,22 +690,22 @@
     "college_board_code": "5860"
 },
 {
-    "school_name": "Colorado State University: Pueblo",
-    "school_city": "Pueblo",
-    "school_state": "CO",
-    "college_board_code": "4611"
-},
-{
     "school_name": "University of Hawaii: West Oahu",
     "school_city": "Kapolei",
     "school_state": "HI",
     "college_board_code": "1042"
 },
 {
-    "school_name": "Southwestern Baptist Theological Seminary",
-    "school_city": "Fort Worth",
-    "school_state": "TX",
-    "college_board_code": "4546"
+    "school_name": "Colorado State University: Pueblo",
+    "school_city": "Pueblo",
+    "school_state": "CO",
+    "college_board_code": "4611"
+},
+{
+    "school_name": "Murray State University",
+    "school_city": "Murray",
+    "school_state": "KY",
+    "college_board_code": "1494"
 },
 {
     "school_name": "Texas Southern University",
@@ -720,22 +714,16 @@
     "college_board_code": "6824"
 },
 {
-    "school_name": "Texas A&M University-Kingsville",
-    "school_city": "Kingsville",
+    "school_name": "Southwestern Baptist Theological Seminary",
+    "school_city": "Fort Worth",
     "school_state": "TX",
-    "college_board_code": "6822"
+    "college_board_code": "4546"
 },
 {
-    "school_name": "University of North Carolina at Greensboro",
-    "school_city": "Greensboro",
-    "school_state": "NC",
-    "college_board_code": "5913"
-},
-{
-    "school_name": "Delta State University",
-    "school_city": "Cleveland",
-    "school_state": "MS",
-    "college_board_code": "1163"
+    "school_name": "Bridgewater State University",
+    "school_city": "Bridgewater",
+    "school_state": "MA",
+    "college_board_code": "3517"
 },
 {
     "school_name": "Commonwealth University Of Pennsylvania Mansfield",
@@ -750,16 +738,40 @@
     "college_board_code": "5404"
 },
 {
-    "school_name": "SUNY College of Technology at Canton",
-    "school_city": "Canton",
-    "school_state": "NY",
-    "college_board_code": "2523"
+    "school_name": "University of North Carolina at Greensboro",
+    "school_city": "Greensboro",
+    "school_state": "NC",
+    "college_board_code": "5913"
+},
+{
+    "school_name": "Delta State University",
+    "school_city": "Cleveland",
+    "school_state": "MS",
+    "college_board_code": "1163"
 },
 {
     "school_name": "Divine Word College",
     "school_city": "Epworth",
     "school_state": "IA",
     "college_board_code": "6174"
+},
+{
+    "school_name": "Fayetteville State University",
+    "school_city": "Fayetteville",
+    "school_state": "NC",
+    "college_board_code": "5212"
+},
+{
+    "school_name": "SUNY College of Technology at Canton",
+    "school_city": "Canton",
+    "school_state": "NY",
+    "college_board_code": "2523"
+},
+{
+    "school_name": "Troy University",
+    "school_city": "Troy",
+    "school_state": "AL",
+    "college_board_code": "1738"
 },
 {
     "school_name": "Alabama State University",
@@ -774,28 +786,16 @@
     "college_board_code": "2520"
 },
 {
-    "school_name": "Fayetteville State University",
-    "school_city": "Fayetteville",
-    "school_state": "NC",
-    "college_board_code": "5212"
-},
-{
     "school_name": "Bluefield State University",
     "school_city": "Bluefield",
     "school_state": "WV",
     "college_board_code": "5064"
 },
 {
-    "school_name": "Calvary University",
-    "school_city": "Kansas City",
-    "school_state": "MO",
-    "college_board_code": "6331"
-},
-{
-    "school_name": "Troy University",
-    "school_city": "Troy",
-    "school_state": "AL",
-    "college_board_code": "1738"
+    "school_name": "Glenville State University",
+    "school_city": "Glenville",
+    "school_state": "WV",
+    "college_board_code": "5254"
 },
 {
     "school_name": "Saint Peter's University",
@@ -804,10 +804,16 @@
     "college_board_code": "2806"
 },
 {
-    "school_name": "Glenville State University",
-    "school_city": "Glenville",
-    "school_state": "WV",
-    "college_board_code": "5254"
+    "school_name": "Calvary University",
+    "school_city": "Kansas City",
+    "school_state": "MO",
+    "college_board_code": "6331"
+},
+{
+    "school_name": "Eastern Kentucky University",
+    "school_city": "Richmond",
+    "school_state": "KY",
+    "college_board_code": "1200"
 },
 {
     "school_name": "Texas Woman's University",
@@ -822,22 +828,28 @@
     "college_board_code": "5534"
 },
 {
-    "school_name": "Eastern Kentucky University",
-    "school_city": "Richmond",
-    "school_state": "KY",
-    "college_board_code": "1200"
-},
-{
     "school_name": "Western Washington University",
     "school_city": "Bellingham",
     "school_state": "WA",
     "college_board_code": "4947"
 },
 {
+    "school_name": "Missouri Southern State University",
+    "school_city": "Joplin",
+    "school_state": "MO",
+    "college_board_code": "6322"
+},
+{
     "school_name": "University of Northern Iowa",
     "school_city": "Cedar Falls",
     "school_state": "IA",
     "college_board_code": "6307"
+},
+{
+    "school_name": "Texas A&M University-Kingsville",
+    "school_city": "Kingsville",
+    "school_state": "TX",
+    "college_board_code": "6822"
 },
 {
     "school_name": "Central State University",
@@ -852,16 +864,10 @@
     "college_board_code": "7305"
 },
 {
-    "school_name": "Shepherd University",
-    "school_city": "Shepherdstown",
+    "school_name": "Concord University",
+    "school_city": "Athens",
     "school_state": "WV",
-    "college_board_code": "5615"
-},
-{
-    "school_name": "Missouri Southern State University",
-    "school_city": "Joplin",
-    "school_state": "MO",
-    "college_board_code": "6322"
+    "college_board_code": "5120"
 },
 {
     "school_name": "Indiana University Kokomo",
@@ -870,10 +876,10 @@
     "college_board_code": "1337"
 },
 {
-    "school_name": "Concord University",
-    "school_city": "Athens",
-    "school_state": "WV",
-    "college_board_code": "5120"
+    "school_name": "LeMoyne Owen College",
+    "school_city": "Memphis",
+    "school_state": "TN",
+    "college_board_code": "1403"
 },
 {
     "school_name": "Southern West Virginia Community and Technical College",
@@ -882,16 +888,10 @@
     "college_board_code": "0770"
 },
 {
-    "school_name": "LeMoyne Owen College",
-    "school_city": "Memphis",
-    "school_state": "TN",
-    "college_board_code": "1403"
-},
-{
-    "school_name": "Bethune-Cookman University",
-    "school_city": "Daytona Beach",
-    "school_state": "FL",
-    "college_board_code": "5061"
+    "school_name": "Shepherd University",
+    "school_city": "Shepherdstown",
+    "school_state": "WV",
+    "college_board_code": "5615"
 },
 {
     "school_name": "University of the Virgin Islands",
@@ -900,10 +900,10 @@
     "college_board_code": "0879"
 },
 {
-    "school_name": "Michigan State University",
-    "school_city": "East Lansing",
-    "school_state": "MI",
-    "college_board_code": "1465"
+    "school_name": "Bethune-Cookman University",
+    "school_city": "Daytona Beach",
+    "school_state": "FL",
+    "college_board_code": "5061"
 },
 {
     "school_name": "University of Mississippi",
@@ -916,6 +916,12 @@
     "school_city": "Dallas",
     "school_state": "TX",
     "college_board_code": "5999"
+},
+{
+    "school_name": "Michigan State University",
+    "school_city": "East Lansing",
+    "school_state": "MI",
+    "college_board_code": "1465"
 },
 {
     "school_name": "Mississippi University for Women",
@@ -942,22 +948,16 @@
     "college_board_code": "0983"
 },
 {
-    "school_name": "Baptist College of Florida",
-    "school_city": "Graceville",
-    "school_state": "FL",
-    "college_board_code": "5209"
-},
-{
     "school_name": "Northeastern State University",
     "school_city": "Tahlequah",
     "school_state": "OK",
     "college_board_code": "6485"
 },
 {
-    "school_name": "Brigham Young University-Idaho",
-    "school_city": "Rexburg",
-    "school_state": "ID",
-    "college_board_code": "4657"
+    "school_name": "Baptist College of Florida",
+    "school_city": "Graceville",
+    "school_state": "FL",
+    "college_board_code": "5209"
 },
 {
     "school_name": "Wright State University: Lake Campus",
@@ -972,10 +972,10 @@
     "college_board_code": "3008"
 },
 {
-    "school_name": "Marshall University",
-    "school_city": "Huntington",
-    "school_state": "WV",
-    "college_board_code": "5396"
+    "school_name": "Brigham Young University-Idaho",
+    "school_city": "Rexburg",
+    "school_state": "ID",
+    "college_board_code": "4657"
 },
 {
     "school_name": "California State University: Stanislaus",
@@ -984,9 +984,9 @@
     "college_board_code": "4713"
 },
 {
-    "school_name": "California State University: Dominguez Hills",
-    "school_city": "Carson",
-    "school_state": "CA",
-    "college_board_code": "4098"
+    "school_name": "Marshall University",
+    "school_city": "Huntington",
+    "school_state": "WV",
+    "college_board_code": "5396"
 }
 ]
