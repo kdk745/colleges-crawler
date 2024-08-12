@@ -22,17 +22,43 @@ const Home: React.FC = () => {
   const startCrawl = async () => {
     setLoading(true);
     dispatch(setColleges([]));  // Clear the data to reflect the reset state
-    const response = await fetch('/api/start-crawl', {
-      method: 'POST',
-    });
-    const result = await response.json();
-    setLoading(false);
-    if (result) {
-      dispatch(setColleges(result));  // Set the data returned from the API
-      setCurrentPage(1); // Reset to first page
-    } else {
-      console.error('Failed to start crawl job');
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 seconds timeout
+
+    try {
+      const response = await fetch('/api/start-crawl', {
+        method: 'POST',
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);  // Clear the timeout if the request completes
+
+      if (!response.ok) {
+        throw new Error('Failed to start crawl job');
+      }
+
+      const result: College[] = await response.json();
+      setLoading(false);
+
+      if (result) {
+        dispatch(setColleges(result));  // Set the data returned from the API
+        setCurrentPage(1); // Reset to first page
+      }
+    } catch (error) {
+      setLoading(false);
+
+      if (error instanceof Error) {
+        if (error.name === 'AbortError') {
+          console.error('Request timed out');
+        } else {
+          console.error('Error:', error.message);
+        }
+      } else {
+        console.error('An unknown error occurred');
+      }
     }
+
   };
 
   const handlePageChange = (page: number) => {

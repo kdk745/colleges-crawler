@@ -2,6 +2,7 @@ import subprocess
 import os
 from .crud import reset_colleges_table
 from .database import AsyncSessionLocal
+from collegescraper.collegescraper.spiders.colleges import CollegesSpider
 
 async def start_crawl_job():
     # Create a new session
@@ -14,3 +15,5 @@ async def start_crawl_job():
     
     # Run the scrapy command
     subprocess.run(["scrapy", "crawl", "colleges"])
+
+

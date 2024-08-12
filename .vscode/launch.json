@@ -2,6 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Celery Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/crawler/Scripts/celery.exe", // Adjust path for your virtual environment
+            "args": [
+                "-A",
+                "api.celery_worker.celery_app",
+                "worker",
+                "--loglevel=info",
+                "-P",
+                "solo",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/backend"
+            }
+        },
+        {
             "name": "Python: Scrapy",
             "type": "python",
             "request": "launch",
@@ -15,6 +34,23 @@
             },
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/collegescraper"
+        },
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/crawler/Scripts/uvicorn.exe",
+            "args": [
+                "api.main:app",  // Replace with the correct module and app instance
+                "--host", "127.0.0.1",
+                "--port", "8000",
+                "--reload"
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/backend"
+            },
+            "justMyCode": true
         }
     ]
 }
