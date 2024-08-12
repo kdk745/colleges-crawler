@@ -17,8 +17,6 @@ async def startup():
 
 @app.post("/api/start-crawl", response_model=List[CollegeSchema])
 async def start_crawl(db: AsyncSession = Depends(get_db)):
-    # await reset_colleges_table(db)
-    # Run the Scrapy job and wait for it to complete
     result = start_crawl_job.delay()
     try:
         response = result.get(timeout=300)

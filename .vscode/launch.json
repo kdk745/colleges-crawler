@@ -5,7 +5,7 @@
             "name": "Celery Worker",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/crawler/Scripts/celery.exe", // Adjust path for your virtual environment
+            "program": "${workspaceFolder}/backend/crawler/Scripts/celery.exe", // Adjust path for your virtual environment
             "args": [
                 "-A",
                 "api.celery_worker.celery_app",
@@ -18,13 +18,14 @@
             "justMyCode": true,
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/backend"
-            }
+            },
+            "cwd": "${workspaceFolder}/backend"
         },
         {
             "name": "Python: Scrapy",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/crawler/Scripts/scrapy.exe",
+            "program": "${workspaceFolder}/backend/crawler/Scripts/scrapy.exe",
             "args": [
                 "crawl",
                 "colleges"
@@ -39,7 +40,7 @@
             "name": "Python: FastAPI",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/crawler/Scripts/uvicorn.exe",
+            "program": "${workspaceFolder}/backend/crawler/Scripts/uvicorn.exe",
             "args": [
                 "api.main:app",  // Replace with the correct module and app instance
                 "--host", "127.0.0.1",
@@ -50,7 +51,8 @@
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/backend"
             },
-            "justMyCode": true
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/backend"
         }
     ]
 }

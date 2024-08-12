@@ -1,4 +1,5 @@
 import scrapy
+import os
 from scrapy.crawler import CrawlerProcess
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,7 +8,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-import time
 
 class CollegesSpider(scrapy.Spider):
     name = 'colleges'
@@ -15,21 +15,25 @@ class CollegesSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(CollegesSpider, self).__init__(*args, **kwargs)
+
+        environment = os.getenv('ENVIRONMENT', 'development')
         
         # specify chrome options
         chrome_options = Options()
         chrome_options.add_argument("--headless")
-        # self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--remote-debugging-port=9222")
-        chrome_options.binary_location = '/app/.apt/opt/google/chrome/chrome'
 
-        chromedriver_path = '/app/.chromedriver/bin/chromedriver'
-        driver_service = Service(chromedriver_path)
-        self.driver = webdriver.Chrome(service=driver_service, options=chrome_options)
+        if environment == 'production':
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--remote-debugging-port=9222")
+            chrome_options.binary_location = '/app/.apt/opt/google/chrome/chrome'
+
+            chromedriver_path = '/app/.chromedriver/bin/chromedriver'
+            driver_service = Service(chromedriver_path)
+            self.driver = webdriver.Chrome(service=driver_service, options=chrome_options)
+        else:
+            self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
     def parse(self, response):
         self.driver.get(response.url)

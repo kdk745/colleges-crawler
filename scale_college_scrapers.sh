@@ -29,7 +29,8 @@ scale_dynos() {
 
 # Scale up or down for both apps
 ACTION=$1
-DYNO_TYPE=web
+DYNO_TYPE_WEB=web
+DYNO_TYPE_WORKER=worker
 
 if [ "$ACTION" == "up" ]; then
   QUANTITY=1
@@ -41,7 +42,8 @@ else
 fi
 
 # Scale for college-scraper-api
-scale_dynos "college-scraper-api" $ACTION $DYNO_TYPE $QUANTITY
+scale_dynos "college-scraper-api" $ACTION $DYNO_TYPE_WEB $QUANTITY
+scale_dynos "college-scraper-api" $ACTION $DYNO_TYPE_WORKER $QUANTITY
 
 # Scale for college-scraper-frontend
-scale_dynos "college-scraper-frontend" $ACTION $DYNO_TYPE $QUANTITY
+scale_dynos "college-scraper-frontend" $ACTION $DYNO_TYPE_WEB $QUANTITY
